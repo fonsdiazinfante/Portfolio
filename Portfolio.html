@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr">
+<head>
+  <meta name="portfolio:" content="Alfonsos portfolio">
+  <meta charset="utf-8">
+  <title>Alfonso Diaz Infante</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav d-flex">
+        <a href="#" class="logo">TEXT</a>
+
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="navigation-bar">
+          <ul>
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="container">
+        <div class="home-wrapper d-grid">
+          <div class="col-left">
+            <h3>I am Fons</h3>
+            <h1>Front-End <br> Developer</h1>
+            <p>JAJSDAKSDOAJSDWOEFNWEFNOWNEFNOWENFWEF</p>
+            <div class="contact-icon d-flex">
+              <a href="#">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="col-right">
+              <img src="img.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio custom-padding" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+        <h2>My Portfolio</h2>
+        <p>ASDASDKOFKWKEOFKWEOFKWOEKFWKEF</p>
+      </div>
+      <div class="port-items d-grid">
+        <div class="item">
+          <img src="img2.png" alt="second image" class="img-fluid">
+          <div class="port-content">
+            <h4>Web Design</h4>
+            <p>ASDKAOSDKNWKENFKNWEKNFW</p>
+            <div class="d-flex">
+              <a href="#" class="info">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img3.png" alt="third image" class="img-fluid">
+          <div class="port-content">
+            <h4>Data Analyst</h4>
+            <p>DATADATADATA</p>
+            <div class="d-flex">
+              <a href="#" class="info">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img3.png" alt="third image" class="img-fluid">
+          <div class="port-content">
+            <h4>Data Analyst</h4>
+            <p>DATADATADATA</p>
+            <div class="d-flex">
+              <a href="#" class="info">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+  <script>
+    $('.burger').on('click', function (event) {
+      $('.navigation-bar').slideToggle('200');
+    })
+  </script>
+
+</body>
+</html>
